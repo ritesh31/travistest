@@ -7,5 +7,5 @@ python:
 - '3.5'
 install:
 - pip install -r requirements.txt
-script: pytest
+script: python3 -m pytest ../travistest/
 after_script: cd ~
